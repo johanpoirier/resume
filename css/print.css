@@ -1,0 +1,74 @@
+#resume {
+	margin: 0;
+	min-width: auto;
+	max-width: auto;
+	padding: 30px 20px;
+}
+
+body {
+	font-size: 0.8em;
+}
+
+header h1 {
+	font-size: 3em;
+	margin-bottom: 30px;
+}
+
+section {
+	margin: 5px;
+}
+
+section p {
+	margin-left: 20px;
+}
+
+section ul {
+	margin-left: -30px;
+}
+
+section ul li {
+	max-width: 330px;
+	width: auto;
+}
+section ul li .property {
+	width: 155px;
+}
+section ul li .value {
+	margin-left: 155px;
+}
+
+section ul.bars .bar {
+	width: 200px;
+}
+
+section#informations  ul li {
+	max-width: 400px;
+}
+section#informations ul li .property  {
+	width: 170px;
+}
+section#informations ul li .value  {
+	margin-left: 170px;
+}
+
+section#skills {
+	margin-left: 40px;
+}
+
+section#experiences ul li .property, section#formation ul li .property  {
+	width: 110px;
+}
+section#experiences ul li .value, section#formation ul li .value  {
+	margin-left: 110px;
+}
+
+footer div {
+	background: none;
+	height: 150px;
+	width: 150px;
+}
+footer div img {
+	box-shadow: 2x 2px 0px #aaa; 
+	height: 150px;
+	width: 150px;
+}

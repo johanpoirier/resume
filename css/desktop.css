@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'downlinkregular';
+    src: url('fonts/downlink-webfont.eot');
+    src: url('fonts/downlink-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/downlink-webfont.woff') format('woff'),
+         url('fonts/downlink-webfont.ttf') format('truetype'),
+         url('fonts/downlink-webfont.svg#downlinkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'downlinkregular', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#resume {
+	background: url("../images/pw_pattern.png") repeat scroll 0% 0% transparent;
+	display: inline-block;
+	height: 100%;
+	margin: 0 7%;
+	min-width: 800px;
+	max-width: 1200px;
+	overflow: overlay;
+	text-align: left;
+}
+
+header h1 {
+	font-size: 4em;
+	margin: 0;
+	white-space: no-wrap;
+	text-align: center;
+	text-transform: lowercase;
+}
+header h1 .highlight {
+	color: red;
+}
+
+header h2 {
+	font-size: 1.5em;
+	margin-top: -10px;
+	text-align: center;
+	font-style: italic;
+}
+
+section {
+	display: block;
+	float: left;
+	margin: 0 20px 20px 20px;
+}
+
+section p {
+	margin-left: 40px;
+}
+
+section ul {
+	list-style-type: none;
+}
+section ul li {
+	width: 450px;
+	margin-bottom: 2px;
+}
+section ul li .property {
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+}
+section ul li .value {
+	display: block;
+	margin-left: 200px;
+}
+
+section ul.bars > li {
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	margin-bottom: 15px;
+	padding-left: 50px;
+}
+
+section ul.bars .bar {
+	background-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 1px 1px 0px #aaa; 
+	display: inline-block;
+	height: 20px;
+	width: 280px;
+}
+
+section ul.bars .bar  span {
+	border-radius: inherit;
+	display: inline-block;
+	height: 100%;
+}
+
+section ul.bars li.javascript {
+	background-image: url(../images/javascript.jpg);
+}
+section ul.bars .javascript .bar > span  { background-color: black; }
+section ul.bars .javascript .text { color: black; }
+
+section ul.bars li.java {
+	background-image: url(../images/java.png);
+}
+section ul.bars .java .bar  > span { background-color: red; }
+section ul.bars .java .text { color: red; }
+
+section ul.bars li.html5 {
+	background-image: url(../images/html5.png);
+}
+section ul.bars .html5 .bar > span  { background-color: orange; }
+section ul.bars .html5 .text { color: orange; }
+
+section ul.bars li.css3 {
+	background-image: url(../images/css3.png);
+}
+section ul.bars .css3 .bar > span  { background-color: blue; }
+section ul.bars .css3 .text { color: blue; }
+
+section ul.bars li.android {
+	background-image: url(../images/android.jpg);
+}
+section ul.bars .android .bar > span  { background-color: #97c024; }
+section ul.bars .android .text { color: #97c024; }
+
+section ul.bars li.git {
+	background-image: url(../images/git.png);
+}
+section ul.bars .git .bar > span  { background-color: orange; }
+section ul.bars .git .text { color: orange; }
+
+section ul.bars .text {
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+section ul.bars .bar .p10 { width: 10%; }
+section ul.bars .bar .p15 { width: 15%; }
+section ul.bars .bar .p20 { width: 20%; }
+section ul.bars .bar .p25 { width: 25%; }
+section ul.bars .bar .p30 { width: 30%; }
+section ul.bars .bar .p35 { width: 35%; }
+section ul.bars .bar .p40 { width: 40%; }
+section ul.bars .bar .p45 { width: 45%; }
+section ul.bars .bar .p50 { width: 50%; }
+section ul.bars .bar .p55 { width: 55%; }
+section ul.bars .bar .p60 { width: 60%; }
+section ul.bars .bar .p65 { width: 65%; }
+section ul.bars .bar .p70 { width: 70%; }
+section ul.bars .bar .p75 { width: 75%; }
+section ul.bars .bar .p80 { width: 80%; }
+section ul.bars .bar .p85 { width: 85%; }
+section ul.bars .bar .p90 { width: 90%; }
+section ul.bars .bar .p95 { width: 95%; }
+section ul.bars .bar .p100 { width: 100%; }
+
+footer {
+	clear: both;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+footer div {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 210px;
+	margin: 0 40px;
+	padding-top: 6px;
+	width: 210px;
+}
