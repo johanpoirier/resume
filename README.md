@@ -1,4 +1,3 @@
 resume
 ======
-http://johanpoirier.jops-dev.com/
-[My résumé online](http://johanpoirier.jops-dev.com/ "Résumé")
+My résumé online : [http://johanpoirier.jops-dev.com/](http://johanpoirier.jops-dev.com/ "Résumé")
