@@ -8,9 +8,52 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'sansationbold';
+    src: url('fonts/sansation_bold-webfont.eot');
+    src: url('fonts/sansation_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation_bold-webfont.woff') format('woff'),
+         url('fonts/sansation_bold-webfont.ttf') format('truetype'),
+         url('fonts/sansation_bold-webfont.svg#sansationbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationbold_italic';
+    src: url('fonts/sansation_bold_italic-webfont.eot');
+    src: url('fonts/sansation_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation_bold_italic-webfont.woff') format('woff'),
+         url('fonts/sansation_bold_italic-webfont.ttf') format('truetype'),
+         url('fonts/sansation_bold_italic-webfont.svg#sansationbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationitalic';
+    src: url('fonts/sansation_italic-webfont.eot');
+    src: url('fonts/sansation_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation_italic-webfont.woff') format('woff'),
+         url('fonts/sansation_italic-webfont.ttf') format('truetype'),
+         url('fonts/sansation_italic-webfont.svg#sansationitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansationregular';
+    src: url('fonts/sansation_regular-webfont.eot');
+    src: url('fonts/sansation_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation_regular-webfont.woff') format('woff'),
+         url('fonts/sansation_regular-webfont.ttf') format('truetype'),
+         url('fonts/sansation_regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-	font-family: 'downlinkregular', sans-serif;
+	font-family: 'sansationregular', sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -29,6 +72,10 @@ a {
 	max-width: 1200px;
 	overflow: overlay;
 	text-align: left;
+}
+
+h1, h2, h3 {
+	font-family: 'downlinkregular', sans-serif;
 }
 
 header h1 {
@@ -63,22 +110,28 @@ section ul {
 	list-style-type: none;
 }
 section ul li {
-	width: 450px;
+	border-bottom: 1px solid #ddd;
 	margin-bottom: 2px;
+	padding: 2px 0;
+	width: 490px;
+}
+section ul li:last-child {
+	border-bottom: 0;
 }
 section ul li .property {
 	display: inline-block;
 	position: absolute;
-	width: 200px;
+	width: 160px;
 }
 section ul li .value {
 	display: block;
-	margin-left: 200px;
+	margin-left: 160px;
 }
 
 section ul.bars > li {
 	background-repeat: no-repeat;
 	background-position: 0 3px;
+	border: 0;
 	margin-bottom: 15px;
 	padding-left: 50px;
 }
@@ -101,26 +154,26 @@ section ul.bars .bar  span {
 section ul.bars li.javascript {
 	background-image: url(../images/javascript.jpg);
 }
-section ul.bars .javascript .bar > span  { background-color: black; }
-section ul.bars .javascript .text { color: black; }
+section ul.bars .javascript .bar > span  { background-color: #132637; }
+section ul.bars .javascript .text { color: #132637; }
 
 section ul.bars li.java {
 	background-image: url(../images/java.png);
 }
-section ul.bars .java .bar  > span { background-color: red; }
-section ul.bars .java .text { color: red; }
+section ul.bars .java .bar  > span { background-color: #ff0000; }
+section ul.bars .java .text { color: #ff0000; }
 
 section ul.bars li.html5 {
 	background-image: url(../images/html5.png);
 }
-section ul.bars .html5 .bar > span  { background-color: orange; }
-section ul.bars .html5 .text { color: orange; }
+section ul.bars .html5 .bar > span  { background-color: #f1692e; }
+section ul.bars .html5 .text { color: #f1692e; }
 
 section ul.bars li.css3 {
 	background-image: url(../images/css3.png);
 }
-section ul.bars .css3 .bar > span  { background-color: blue; }
-section ul.bars .css3 .text { color: blue; }
+section ul.bars .css3 .bar > span  { background-color: #0371ba; }
+section ul.bars .css3 .text { color: #0371ba; }
 
 section ul.bars li.android {
 	background-image: url(../images/android.jpg);
@@ -131,8 +184,8 @@ section ul.bars .android .text { color: #97c024; }
 section ul.bars li.git {
 	background-image: url(../images/git.png);
 }
-section ul.bars .git .bar > span  { background-color: orange; }
-section ul.bars .git .text { color: orange; }
+section ul.bars .git .bar > span  { background-color: #f05033; }
+section ul.bars .git .text { color: #f05033; }
 
 section ul.bars .text {
 	padding-bottom: 5px;

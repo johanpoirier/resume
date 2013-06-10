@@ -13,9 +13,12 @@ header h1 {
 	font-size: 3em;
 	margin-bottom: 30px;
 }
+header h2 {
+	margin-top: -35px;
+}
 
 section {
-	margin: 5px;
+	margin: 0 5px;
 }
 
 section p {
@@ -53,6 +56,30 @@ section#informations ul li .value  {
 
 section#skills {
 	margin-left: 40px;
+}
+
+section ul.bars li.javascript {
+	background-image: url(../images/print/javascript.jpg);
+}
+section ul.bars li.java {
+	background-image: url(../images/print/java.png);
+}
+section ul.bars li.html5 {
+	background-image: url(../images/print/html5.png);
+}
+section ul.bars li.css3 {
+	background-image: url(../images/print/css3.png);
+}
+section ul.bars li.android {
+	background-image: url(../images/print/android.jpg);
+}
+section ul.bars li.git {
+	background-image: url(../images/print/git.png);
+}
+
+section ul.bars > li {
+	margin-bottom: 7px;
+	padding-left: 50px;
 }
 
 section#experiences ul li .property, section#formation ul li .property  {
