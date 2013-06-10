@@ -21,6 +21,10 @@ section {
 	margin: 0 5px;
 }
 
+section  h1 {
+	margin: 3px 0 0 0;
+}
+
 section p {
 	margin-left: 20px;
 }
