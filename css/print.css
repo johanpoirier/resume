@@ -103,3 +103,7 @@ footer div img {
 	height: 150px;
 	width: 150px;
 }
+
+.print {
+    display: block;
+}
