@@ -9,6 +9,10 @@ body {
 	font-size: 0.8em;
 }
 
+#resume {
+	display: block;
+}
+
 header h1 {
 	font-size: 3em;
 	margin-bottom: 30px;
